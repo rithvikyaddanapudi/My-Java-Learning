@@ -7,7 +7,7 @@ public class GradeEvaluator {
 		System.out.print("Enter your grade: ");
 		double myGrade = input.nextDouble();
 		
-		if (myGrade >= 0 && myGrade <= 100) {
+		if (myGrade >= 0 && myGrade <= 105) {
 			if (myGrade >= 97) {
 				System.out.println("Your grade is A+");
 			}	else if (myGrade >= 93) {
@@ -38,7 +38,7 @@ public class GradeEvaluator {
 		}	else {
 			System.out.println("Invalid number");
 		}
-		
+		input.close();
 	}
 
 }
